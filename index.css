@@ -9,9 +9,23 @@ body{
     font-size: 100%;
 }
 
+*::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: rgb(240, 224, 243);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 149, 255);
+    border-radius: 20px;
+    border: 3px solid rgb(240, 224, 243);
+  }
+
 heather{ 
     font-family:sans-serif;
-    background-color: #F7ACCF;
+    background-color: rgba(255,179,225,1);
     position:fixed;
     top:0px;
     right: 0px;
@@ -37,8 +51,9 @@ heather{
 
 .navbar a:hover{
     color:rgb(255, 255, 255);
-    background-color:#ee90bc;
+    background-color:#f8a7e0;
     transition: 0.5s;
+
 }
 
 .apresentacao{
@@ -130,4 +145,137 @@ heather{
     transition-duration: 0.5s;
     transform: scale(1.3);
     
+}
+
+.parte_publico_gerenciamento{
+    background: rgb(61, 63, 63);
+    background: linear-gradient(0deg, rgb(82, 79, 82) 14%, rgb(119, 111, 121) 29%, rgba(255,179,225,1) 91%);
+    display: flex;
+    flex-direction: row;
+    padding: 112px 64px;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.parte_publico_gerenciamento img{
+    height: 480px;
+}
+
+.parte_pg_textos{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.parte_pg_textos_principal{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.parte_pg_textos_titulo{
+    color: #000;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+}
+
+.parte_pg_textos_paragrafo{
+    color: #000;
+    /* Text/Medium/Normal */
+    font-family:sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+
+.parte_pg_textos_topicos{
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0px;
+    align-items: flex-start;
+    gap: 100px;
+    align-self: stretch;
+}
+
+.parte_pg_textos_topicos img{
+    width: 48px;
+    height: 49px;
+}
+
+.parte_pg_textos_topicos_elemento{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.parte_pg_textos_topicos_elemento_titulo{
+    color: #000;
+    /* Heading/H6 */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+}
+
+.parte_pg_textos_topicos_elemento_paragrafo{
+    color: #000;
+    /* Text/Regular/Normal */
+    font-family:sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.parte_cliente_produto_julgamento{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-right: 7%;
+    justify-content: space-around;
+    display: flex;
+    align-items: flex-start;
+    gap: 48px;
+    align-self: stretch;
+}
+
+.parte_cliente_produto_julgamento img{
+    width: 409px;
+    height: 240px;
+}
+
+.parte_cpj_elemento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+    gap:30px;
+    margin: 1%;
+}
+
+.parte_cpj_titulo{
+    color: #000;
+    /* Heading/H5 */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 33.6px */
+}
+
+.parte_cpj_paragrafo{
+    color: #000;
+    /* Text/Regular/Normal */
+    font-family:sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
 }
