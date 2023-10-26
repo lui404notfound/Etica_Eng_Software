@@ -295,7 +295,6 @@ heather{
     justify-content: space-around;
     display: flex;
     align-items: flex-start;
-    flex-wrap: nowrap;
     gap: 48px;
     align-self: stretch;
 }
