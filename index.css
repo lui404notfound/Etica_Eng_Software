@@ -250,7 +250,7 @@ heather{
     flex-direction: row;
     padding: 8px 0px;
     align-items: flex-start;
-    gap: 100px;
+    gap: 80px;
     align-self: stretch;
 }
 
@@ -295,6 +295,7 @@ heather{
     justify-content: space-around;
     display: flex;
     align-items: flex-start;
+    flex-wrap: nowrap;
     gap: 48px;
     align-self: stretch;
 }
@@ -308,9 +309,9 @@ heather{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0%;
+    padding: 1%;
     gap:30px;
-    margin: 1%;
+    margin: 0%;
 }
 
 .parte_cpj_titulo{
