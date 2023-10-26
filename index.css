@@ -70,7 +70,7 @@ heather{
 }
 
 .apresentacao{
-    background: url(/imgs/img_apresent.png), lightgray 70% / cover no-repeat;
+    background: url(imgs/img_apresent.png), lightgray 70% / cover no-repeat;
     background-size: 100%;
     padding-top: 10%;
     display: flex;
