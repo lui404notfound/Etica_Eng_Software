@@ -2,6 +2,14 @@ html{
     scroll-behavior: smooth;
 }
 
+@media screen and (max-width: 768px) {
+    /* Estilos para telas menores, como smartphones */
+  }
+  
+  @media screen and (min-width: 769px) {
+    /* Estilos para telas maiores, como tablets e desktops */
+  }  
+
 * {
     margin: 0;
     padding: 0;
@@ -45,6 +53,7 @@ heather{
     gap:15px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .navbar a{
@@ -107,24 +116,59 @@ heather{
 .opcoes_1{
     display: flex;
     flex-direction: row;
+    align-items: baseline;
     justify-content: space-around;
     padding-left: 10%;
     padding-right: 10%;
-    
+    flex-wrap: wrap;
 }
 
 .opcoes_2{
     display: flex;
     flex-direction: row;
+    align-items: baseline;
     justify-content: space-around;
     padding-left: 6%;
     padding-right: 10%;
+    flex-wrap: wrap;
 }
 
-.principios img{
+.principios_imagens_publico{
+    width: 80%;
+}
+
+.principios_imagens_cliente{
+    width: 27%;
+}
+
+.principios_imagens_produto{
+    width: 80%;
+}
+
+.principios_imagens_julgamento{
+    width: 53%;
+}
+
+.principios_imagens_gerenciamento{
+    width: 40%;
+}
+
+.principios_imagens_profissao{
+    width: 66%;
+}
+
+.principios_imagens_colegas{
+    width: 80%;
+}
+
+.principios_imagens_pessoal{
+    width: 94%;
+}
+
+/*.principios img{
     width: 48px;
     height: 48px;
-}
+}*/
 
 .principios{
     display:flex;
@@ -377,4 +421,10 @@ footer{
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 27px */
+}
+
+.footer_icones{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
 }
